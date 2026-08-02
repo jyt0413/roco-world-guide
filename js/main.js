@@ -23,6 +23,21 @@
     return mm + "月" + dd + "日 " + hh + ":" + mi;
   }
 
+  function getAutoData() {
+    return (typeof AUTO_DATA !== "undefined" && AUTO_DATA) ? AUTO_DATA : { announcements: [], strategy: [] };
+  }
+
+  function dedupeByUrl(list) {
+    const seen = new Set();
+    return list.filter((it) => {
+      if (!it || !it.url) return true;
+      const key = it.url.split("#")[0].replace(/\/$/, "");
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
   function fmtDateShort(iso) {
     if (!iso) return "长期";
     const d = new Date(iso);
@@ -202,9 +217,10 @@
   const updatedEl = $("#news-updated");
   const netStatus = $("#net-status");
   let currentFilter = "all";
-  const STATUS_TEXT = { ongoing: "进行中", upcoming: "即将开启", ended: "已结束" };
+  const STATUS_TEXT = { ongoing: "进行中", upcoming: "即将开启", ended: "已结束", info: "资讯" };
 
   function getStatus(a, now) {
+    if (a.auto || !a.start) return "info";
     const s = new Date(a.start);
     if (a.end) {
       const e = new Date(a.end);
@@ -228,9 +244,11 @@
 
   function renderNews() {
     const now = new Date();
-    const items = SITE_DATA.announcements
+    const AUTO = getAutoData();
+    const allNews = dedupeByUrl([...(AUTO.announcements || []), ...SITE_DATA.announcements]);
+    const items = allNews
       .map((a) => ({ a, status: getStatus(a, now) }))
-      .filter(({ status }) => currentFilter === "all" || status === currentFilter);
+      .filter(({ status }) => currentFilter === "all" || (status === currentFilter && status !== "info"));
 
     if (!items.length) {
       newsGrid.innerHTML = '<p class="note" style="grid-column:1/-1">当前筛选下暂无公告～</p>';
@@ -238,9 +256,11 @@
     }
 
     newsGrid.innerHTML = items.map(({ a, status }) => {
-      const tagCls = a.tagColor === "blue" ? "blue" : a.tagColor === "pink" ? "pink" : a.tagColor === "green" ? "green" : "";
+      const tagCls = a.auto ? "green" : (a.tagColor === "blue" ? "blue" : a.tagColor === "pink" ? "pink" : a.tagColor === "green" ? "green" : "");
       const cd = status === "ongoing" && a.end ? '<span class="countdown" data-end="' + a.end + '">' + countdownText(a.end) + "</span>" : "";
-      const dateLine = "<span>开始：<b>" + fmtDate(a.start) + "</b></span><span>结束：<b>" + (a.end ? fmtDate(a.end) : "长期进行") + "</b></span>";
+      const dateLine = a.auto
+        ? "<span>发布：<b>" + fmtDate(a.publish || a.start) + "</b></span>"
+        : "<span>开始：<b>" + fmtDate(a.start) + "</b></span><span>结束：<b>" + (a.end ? fmtDate(a.end) : "长期进行") + "</b></span>";
       const details = (a.details || []).map((d) => "<li>" + esc(d) + "</li>").join("");
       return (
         '<article class="glass news-card reveal">' +
@@ -250,7 +270,7 @@
           "</div>" +
           "<h3>" + esc(a.title) + "</h3>" +
           '<div class="date-line">' + dateLine + cd + "</div>" +
-          '<p class="summary">' + esc(a.summary) + "</p>" +
+          '<p class="summary">' + esc(a.summary || "系统自动收录的资讯，点击查看原文了解详情。") + "</p>" +
           "<ul class=\"details\">" + details + "</ul>" +
           '<div class="card-foot">' +
             '<span class="source">来源：' + esc(a.source) + "</span>" +
@@ -312,8 +332,8 @@
   /* ============================================================
      查蛋系统
      ============================================================ */
-  const lenSlider = $("#egg-len"), lenVal = $("#egg-len-val");
-  const wSlider = $("#egg-w"), wVal = $("#egg-w-val");
+  const lenSlider = $("#egg-len"), lenNum = $("#egg-len-num");
+  const wSlider = $("#egg-w"), wNum = $("#egg-w-num");
   const matchList = $("#egg-match-list"), matchEmpty = $("#egg-match-empty"), ballTip = $("#ball-tip");
   const hatchBtn = $("#hatch-btn"), shell = $("#egg-shell"), eggResult = $("#egg-result");
   const resultEmoji = $("#result-emoji"), resultName = $("#result-name");
@@ -381,15 +401,39 @@
     ballTip.textContent = zone.ball + " " + modeNote;
   }
 
-  function updateSliders() {
+  function syncNumInputs() {
     const { len, w } = currentValues();
-    lenVal.textContent = len.toFixed(2) + " 米";
-    wVal.textContent = w.toFixed(2) + " 千克";
+    lenNum.value = len.toFixed(2);
+    wNum.value = w.toFixed(2);
     renderMatches();
   }
 
-  lenSlider.addEventListener("input", updateSliders);
-  wSlider.addEventListener("input", updateSliders);
+  function clampNum(val, min, max) {
+    let n = parseFloat(val);
+    if (isNaN(n)) return null;
+    if (n < min) n = min;
+    if (n > max) n = max;
+    return Math.round(n * 100) / 100;
+  }
+
+  function onNumInput(slider, num, min, max) {
+    const n = clampNum(num.value, min, max);
+    if (n !== null) {
+      slider.value = n;
+      num.value = n.toFixed(2);
+      renderMatches();
+    }
+  }
+
+  lenSlider.addEventListener("input", syncNumInputs);
+  wSlider.addEventListener("input", syncNumInputs);
+  lenNum.addEventListener("input", () => onNumInput(lenSlider, lenNum, 0.04, 0.75));
+  wNum.addEventListener("input", () => onNumInput(wSlider, wNum, 0.03, 45));
+  lenNum.addEventListener("blur", () => { lenNum.value = parseFloat(lenSlider.value).toFixed(2); });
+  wNum.addEventListener("blur", () => { wNum.value = parseFloat(wSlider.value).toFixed(2); });
+  [lenNum, wNum].forEach((inp) => inp.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") { inp.blur(); if (!hatching) hatchBtn.click(); }
+  }));
 
   // 孵化火花
   function burstSparks() {
@@ -610,12 +654,35 @@
   tickClock();
   setInterval(tickClock, 1000);
 
+  /* ---------- 攻略速递（系统定时收录） ---------- */
+  function fillAutoList(listSel, blockSel, items) {
+    const list = $(listSel);
+    const block = $(blockSel);
+    if (!list || !block) return;
+    if (!items.length) { block.hidden = true; return; }
+    block.hidden = false;
+    list.innerHTML = items.map((i) =>
+      '<li><a href="' + esc(i.url) + '" target="_blank" rel="noopener noreferrer">' + esc(i.title) + "</a>" +
+      '<span class="auto-meta">' + esc(i.source || "系统收录") + " · " + fmtDate(i.publish) + "</span></li>"
+    ).join("");
+    observeReveals(block);
+  }
+
+  function renderAutoStrategy() {
+    const AUTO = getAutoData();
+    const items = AUTO.strategy || [];
+    fillAutoList("#pvp-auto-list", "#pvp-auto", items.filter((i) => i.category === "pvp"));
+    fillAutoList("#pve-auto-list", "#pve-auto", items.filter((i) => i.category !== "pvp"));
+  }
+
   /* ---------- 初始化 ---------- */
   renderNews();
   renderZones();
+  syncNumInputs();
   renderMatches();
   renderPvp();
   renderPve();
+  renderAutoStrategy();
   renderTimeline();
   renderRules();
   renderAbout();

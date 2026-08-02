@@ -1,0 +1,39 @@
+name: 自动更新公告与攻略速递
+
+on:
+  schedule:
+    # 每 6 小时运行一次（UTC 时间）
+    - cron: "23 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 抓取并合并新内容
+        run: node scripts/fetch_content.mjs
+
+      - name: 有更新则提交并推送
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: 自动更新公告与攻略速递 [skip ci]"
+            git push origin HEAD:main
+            echo "已推送更新"
+          else
+            echo "无新内容，跳过提交"
+          fi

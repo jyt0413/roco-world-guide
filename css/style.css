@@ -1132,3 +1132,84 @@ input[type="range"]::-moz-range-thumb {
   }
   html { scroll-behavior: auto; }
 }
+/* ---------- 数字输入（查蛋键盘输入） ---------- */
+.num-input {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 14px;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.num-input:focus-within {
+  border-color: rgba(255, 201, 77, 0.6);
+  box-shadow: 0 0 0 3px rgba(255, 201, 77, 0.15);
+}
+
+.num-input input[type="number"] {
+  width: 96px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--gold);
+  font-size: 15px;
+  font-weight: 800;
+  font-family: var(--font);
+  text-align: right;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.num-input input[type="number"]::-webkit-outer-spin-button,
+.num-input input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.num-input .unit { font-size: 12px; color: var(--text-faint); }
+
+/* ---------- 资讯徽章（自动收录公告） ---------- */
+.status-badge.info {
+  color: var(--blue);
+  background: rgba(111, 195, 255, 0.1);
+  border: 1px solid rgba(111, 195, 255, 0.3);
+}
+
+/* ---------- 攻略速递（自动收录） ---------- */
+.auto-block { padding: 26px 28px; margin-top: 30px; }
+
+.auto-block h3 { font-size: 19px; margin-bottom: 6px; }
+
+.auto-block .hint { margin-bottom: 14px; }
+
+.auto-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+
+.auto-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: background 0.25s, transform 0.25s;
+}
+
+.auto-list li:hover { background: rgba(111, 195, 255, 0.1); transform: translateX(4px); }
+
+.auto-list a {
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  flex: 1 1 60%;
+}
+
+.auto-list a:hover { color: #fff; text-decoration: underline; }
+
+.auto-meta { font-size: 12px; color: var(--text-faint); white-space: nowrap; }

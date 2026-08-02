@@ -102,7 +102,10 @@
           <div class="slider-row">
             <div class="slider-head">
               <span class="slider-label">📏 蛋长</span>
-              <output id="egg-len-val" class="slider-val">0.30 米</output>
+              <div class="num-input">
+                <input type="number" id="egg-len-num" min="0.04" max="0.75" step="0.01" value="0.30" inputmode="decimal" aria-label="蛋长（米）">
+                <span class="unit">米</span>
+              </div>
             </div>
             <input type="range" id="egg-len" min="0.04" max="0.75" step="0.01" value="0.30">
             <div class="slider-scale"><span>0.04</span><span>0.75</span></div>
@@ -111,7 +114,10 @@
           <div class="slider-row">
             <div class="slider-head">
               <span class="slider-label">⚖️ 重量</span>
-              <output id="egg-w-val" class="slider-val">7.00 千克</output>
+              <div class="num-input">
+                <input type="number" id="egg-w-num" min="0.03" max="45" step="0.01" value="7" inputmode="decimal" aria-label="重量（千克）">
+                <span class="unit">千克</span>
+              </div>
             </div>
             <input type="range" id="egg-w" min="0.03" max="45" step="0.01" value="7">
             <div class="slider-scale"><span>0.03</span><span>45</span></div>
@@ -160,6 +166,11 @@
         <p class="section-desc">来自社区不同创作者的实战阵容，覆盖多核轮转、控场压制、环境爆发等流派。</p>
       </header>
       <div class="lineup-grid" id="pvp-grid"></div>
+      <div class="glass auto-block reveal" id="pvp-auto" hidden>
+        <h3>📰 攻略速递 · 系统定时收录</h3>
+        <p class="hint">由自动更新任务从 17173 / 9game 等来源定期收录的新攻略，点击标题可查看原文（内容仅供参考，最终以官方为准）。</p>
+        <ul class="auto-list" id="pvp-auto-list"></ul>
+      </div>
     </div>
   </section>
 
@@ -172,6 +183,11 @@
         <p class="section-desc">开荒御三家、Boss 打法、抓宠用球策略，帮你少走弯路。</p>
       </header>
       <div class="pve-grid" id="pve-grid"></div>
+      <div class="glass auto-block reveal" id="pve-auto" hidden>
+        <h3>📰 攻略速递 · 系统定时收录</h3>
+        <p class="hint">由自动更新任务从 17173 / 9game 等来源定期收录的新攻略，点击标题可查看原文（内容仅供参考，最终以官方为准）。</p>
+        <ul class="auto-list" id="pve-auto-list"></ul>
+      </div>
 
       <div class="glass timeline reveal">
         <h3>🗺️ 新手推进路线（来源：社区新手攻略）</h3>
@@ -227,6 +243,7 @@
   <p class="footer-note">非官方站点 · 仅供玩家交流学习</p>
 </footer>
 
+<script src="js/auto.js"></script>
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
 </body>

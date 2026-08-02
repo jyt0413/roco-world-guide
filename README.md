@@ -71,3 +71,31 @@ git push origin main
 ```
 
 推送后约 1 分钟，线上网站自动更新。
+## 🤖 自动更新机制（GitHub Actions）
+
+仓库内置定时任务 `.github/workflows/auto-update.yml`，**每 6 小时自动运行一次**（也可在仓库 Actions 页面手动触发）：
+
+1. 抓取数据源：
+   - 17173「洛克王国」资讯标签页（GBK 解码，含手游/页游资讯）
+   - 洛克王国官网新闻公告列表 `roco.qq.com`（官方页游公告）
+   - 9game「洛克王国手游」攻略频道（PVP/PVE 攻略速递）
+2. 自动合并去重到 `content/auto.json`（公告最多 40 条、攻略速递最多 60 条）
+3. 生成 `js/auto.js` 并提交推送，GitHub Pages 自动重新发布
+
+- 自动公告在网站上显示为「📰 资讯」徽章，按发布日期排序；攻略速递显示在 PVP / PVE 板块下方。
+- 数据源抓取失败时保留旧数据，不影响线上网站。
+- 手动运行一次：仓库 → Actions → "自动更新公告与攻略速递" → Run workflow。
+
+### 本地手动更新数据
+
+```powershell
+cd "C:\Users\29920\Documents\洛克王国"
+node scripts/fetch_content.mjs   # 抓取 + 合并 + 生成 js/auto.js
+git add -A; git commit -m "更新"; git push origin main
+```
+
+## ⌨️ 查蛋系统键盘输入
+
+查蛋助手支持两种输入方式，实时同步：
+- 拖动滑块调整蛋长 / 重量
+- 在数字框中直接输入数值（蛋长 0.04–0.75 米，重量 0.03–45 千克），按 Enter 可直接触发孵化动画
