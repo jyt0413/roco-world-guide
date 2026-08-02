@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>洛克王国：世界 · 小洛克攻略站</title>
+<meta name="description" content="洛克王国手游《洛克王国：世界》攻略站：官方实时活动公告、精灵蛋查蛋系统、玩家PVP阵容与PVE攻略。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥚</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== 动态背景：魔法粒子画布 + 星空 ===== -->
+<canvas id="magic-canvas" aria-hidden="true"></canvas>
+<div class="stars-layer" aria-hidden="true"></div>
+
+<!-- ===== 顶部导航 ===== -->
+<header class="top-nav" id="top-nav">
+  <div class="nav-inner">
+    <a class="brand" href="#home">
+      <span class="brand-egg" aria-hidden="true">🥚</span>
+      <span class="brand-text">小洛克攻略站</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="打开菜单" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="nav-links" aria-label="主导航">
+      <a href="#home">首页</a>
+      <a href="#news">官方公告</a>
+      <a href="#egg">查蛋系统</a>
+      <a href="#pvp">PVP阵容</a>
+      <a href="#pve">PVE攻略</a>
+      <a href="#hatch">孵蛋知识</a>
+      <a href="#about">关于</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ===== 首页 Hero ===== -->
+  <section id="home" class="hero">
+    <div class="hero-sky">
+      <div class="cloud cloud-1" aria-hidden="true"></div>
+      <div class="cloud cloud-2" aria-hidden="true"></div>
+      <div class="cloud cloud-3" aria-hidden="true"></div>
+      <div class="island island-1" id="island-1" aria-hidden="true"></div>
+      <div class="island island-2" id="island-2" aria-hidden="true"></div>
+      <div class="island island-3" id="island-3" aria-hidden="true"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">✦ 精灵共存 · 回合策略 · 开放世界 ✦</p>
+      <h1 class="hero-title"><span class="grad-text">洛克王国：世界</span><br>小洛克攻略站</h1>
+      <p class="hero-sub" id="typewriter"></p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#egg">🥚 查蛋鉴定</a>
+        <a class="btn ghost" href="#news">📢 最新公告</a>
+      </div>
+      <div class="hero-egg" aria-hidden="true">
+        <div class="hero-egg-body"></div>
+        <div class="hero-egg-shine"></div>
+      </div>
+    </div>
+    <a class="scroll-hint" href="#news" aria-label="向下滚动"><span></span></a>
+  </section>
+
+  <!-- ===== 官方公告 ===== -->
+  <section id="news" class="section">
+    <div class="section-inner">
+      <header class="section-head reveal">
+        <p class="section-kicker">OFFICIAL NEWS</p>
+        <h2>📢 官方实时活动公告</h2>
+        <p class="section-desc">公告整理自官方渠道与官方媒体报道，可点「刷新」检测网络并查看数据收录时间。</p>
+        <div class="news-toolbar">
+          <div class="filters" id="news-filters" role="tablist" aria-label="公告筛选">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="ongoing">🔥 进行中</button>
+            <button class="filter-btn" data-filter="upcoming">即将开启</button>
+            <button class="filter-btn" data-filter="ended">已结束</button>
+          </div>
+          <button class="btn small ghost" id="refresh-news">🔄 刷新公告</button>
+        </div>
+        <p class="updated-line">数据收录时间：<time id="news-updated"></time> · <span id="net-status">本地收录模式</span></p>
+      </header>
+      <div class="news-grid" id="news-grid"></div>
+      <p class="note reveal">※ 攻略站为玩家自制内容，公告由人工整理，请以游戏内实际公告与官方渠道为准。</p>
+    </div>
+  </section>
+
+  <!-- ===== 查蛋系统 ===== -->
+  <section id="egg" class="section alt">
+    <div class="section-inner">
+      <header class="section-head reveal">
+        <p class="section-kicker">EGG CHECKER</p>
+        <h2>🥚 查蛋系统 · 精灵蛋鉴定助手</h2>
+        <p class="section-desc">输入孵蛋界面显示的<b>蛋长</b>与<b>重量</b>，系统会按玩家实测数据表推测蛋中的精灵，并给出用球建议～</p>
+      </header>
+
+      <div class="egg-layout">
+        <!-- 左侧：鉴定工具 -->
+        <div class="glass egg-panel reveal">
+          <h3>🔎 输入你的精灵蛋数据</h3>
+          <p class="hint">孵蛋装置中会显示蛋的尺寸（米）与重量（千克）</p>
+
+          <div class="slider-row">
+            <div class="slider-head">
+              <span class="slider-label">📏 蛋长</span>
+              <output id="egg-len-val" class="slider-val">0.30 米</output>
+            </div>
+            <input type="range" id="egg-len" min="0.04" max="0.75" step="0.01" value="0.30">
+            <div class="slider-scale"><span>0.04</span><span>0.75</span></div>
+          </div>
+
+          <div class="slider-row">
+            <div class="slider-head">
+              <span class="slider-label">⚖️ 重量</span>
+              <output id="egg-w-val" class="slider-val">7.00 千克</output>
+            </div>
+            <input type="range" id="egg-w" min="0.03" max="45" step="0.01" value="7">
+            <div class="slider-scale"><span>0.03</span><span>45</span></div>
+          </div>
+
+          <div class="egg-stage" id="egg-stage">
+            <div class="egg-shell" id="egg-shell">
+              <div class="egg-spots" aria-hidden="true"></div>
+              <div class="egg-result hidden" id="egg-result">
+                <span class="result-emoji" id="result-emoji">🦄</span>
+                <span class="result-name" id="result-name">？？？</span>
+              </div>
+              <div class="egg-crack crack-1" aria-hidden="true"></div>
+              <div class="egg-crack crack-2" aria-hidden="true"></div>
+            </div>
+            <button class="btn primary hatch-btn" id="hatch-btn">✨ 孵化 &amp; 鉴定</button>
+            <p class="hatch-tip">点击「孵化」看看蛋里是谁！</p>
+          </div>
+
+          <div class="egg-match" id="egg-match">
+            <div class="match-head">
+              <h4>🧬 推测结果</h4>
+              <span class="ball-tip" id="ball-tip"></span>
+            </div>
+            <ul class="match-list" id="egg-match-list"></ul>
+            <p class="match-empty hidden" id="egg-match-empty">未找到完全匹配，试试调整数值～</p>
+          </div>
+        </div>
+
+        <!-- 右侧：对照总表 -->
+        <div class="glass egg-ref reveal">
+          <h3>📚 精灵蛋对照总表</h3>
+          <p class="hint">按重量分为 <b>0-1 / 1-1.8 / 1.8-4 / 4-14 / 14+</b> 五档（玩家实测整理，仅供参考，持续更新中）</p>
+          <div id="egg-zones"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PVP 阵容 ===== -->
+  <section id="pvp" class="section">
+    <div class="section-inner">
+      <header class="section-head reveal">
+        <p class="section-kicker">PVP LINEUPS</p>
+        <h2>⚔️ 玩家 PVP 阵容分享</h2>
+        <p class="section-desc">来自社区不同创作者的实战阵容，覆盖多核轮转、控场压制、环境爆发等流派。</p>
+      </header>
+      <div class="lineup-grid" id="pvp-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== PVE 攻略 ===== -->
+  <section id="pve" class="section alt">
+    <div class="section-inner">
+      <header class="section-head reveal">
+        <p class="section-kicker">PVE GUIDES</p>
+        <h2>🌿 PVE 攻略</h2>
+        <p class="section-desc">开荒御三家、Boss 打法、抓宠用球策略，帮你少走弯路。</p>
+      </header>
+      <div class="pve-grid" id="pve-grid"></div>
+
+      <div class="glass timeline reveal">
+        <h3>🗺️ 新手推进路线（来源：社区新手攻略）</h3>
+        <ol class="timeline-list" id="timeline"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 孵蛋知识 ===== -->
+  <section id="hatch" class="section">
+    <div class="section-inner">
+      <header class="section-head reveal">
+        <p class="section-kicker">HATCHING 101</p>
+        <h2>🐣 孵蛋知识小课堂</h2>
+        <p class="section-desc">生蛋规则、蛋组配对与孵化机制，一图看懂。</p>
+      </header>
+      <div class="rule-grid" id="egg-rules"></div>
+    </div>
+  </section>
+
+  <!-- ===== 关于 ===== -->
+  <section id="about" class="section alt">
+    <div class="section-inner">
+      <header class="section-head reveal">
+        <p class="section-kicker">ABOUT</p>
+        <h2>📖 关于本站</h2>
+      </header>
+      <div class="about-grid">
+        <div class="glass reveal">
+          <h3>🌐 官方入口</h3>
+          <ul class="link-list" id="official-links"></ul>
+        </div>
+        <div class="glass reveal">
+          <h3>📌 内容说明</h3>
+          <ul class="about-list">
+            <li>本站为<b>玩家自制攻略站</b>，与腾讯 / 魔方工作室无任何关联，不构成官方产品。</li>
+            <li>查蛋数据为玩家实测整理（社区「对照表」汇总），仅供参考，官方可能随时调整。</li>
+            <li>PVP / PVE 攻略均标注<b>来源与创作者</b>，版权归原作者所有，转载注明出处。</li>
+            <li>公告内容为人工收录，建议搭配官方渠道二次确认。</li>
+          </ul>
+        </div>
+      </div>
+      <div class="glass credits reveal">
+        <h3>🙏 攻略来源鸣谢</h3>
+        <p class="credit-line" id="credits"></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>🥚 小洛克攻略站 · 洛克王国：世界 玩家攻略 · <span id="footer-clock"></span></p>
+  <p class="footer-note">非官方站点 · 仅供玩家交流学习</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
