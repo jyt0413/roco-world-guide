@@ -55,3 +55,19 @@ python -m http.server 8080
 
 本站为**玩家自制攻略站**，与腾讯 / 魔方工作室无任何关联。查蛋数据为社区玩家实测整理，
 公告内容为人工收录，请以游戏内实际内容与官方渠道为准。攻略内容版权归原作者所有。
+## 🌐 线上部署（GitHub Pages）
+
+- **网站地址**：https://jyt0413.github.io/roco-world-guide/
+- **仓库地址**：https://github.com/jyt0413/roco-world-guide
+- 仓库为公开仓库，托管在 GitHub Pages（`main` 分支根目录自动发布）。
+
+### 更新网站（推送到线上）
+
+```powershell
+cd "C:\Users\29920\Documents\洛克王国"
+git add -A
+git commit -m "更新内容"
+git push origin main
+```
+
+推送后约 1 分钟，线上网站自动更新。
