@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界新战斗机制分享 洛克王国世界新战斗机制是什么",
+      "url": "https://www.9game.cn/lkwgsy/12009931.html",
+      "publish": "2026-08-07",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界伊贝儿怎么样 洛克王国世界伊贝儿介绍",
       "url": "https://www.9game.cn/lkwgsy/12009533.html",
       "publish": "2026-08-06",
