@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界可立鸡家族成员分享 洛克王国世界可立鸡家族有谁",
+      "url": "https://www.9game.cn/lkwgsy/12016008.html",
+      "publish": "2026-08-10",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界可立鸡家族介绍 洛克王国世界可立鸡家族成员一览",
       "url": "https://www.9game.cn/lkwgsy/12012312.html",
       "publish": "2026-08-07",
