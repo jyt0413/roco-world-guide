@@ -324,6 +324,22 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界全新战斗机制详解：策略升级与玩法革新",
+      "url": "https://www.9game.cn/lkwgsy/12016359.html",
+      "publish": "2026-08-11",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界伊贝儿图鉴：技能属性、获取方式与实战强度分析",
+      "url": "https://www.9game.cn/lkwgsy/12016353.html",
+      "publish": "2026-08-11",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界可立鸡家族成员分享 洛克王国世界可立鸡家族有谁",
       "url": "https://www.9game.cn/lkwgsy/12016008.html",
       "publish": "2026-08-10",
