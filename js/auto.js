@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "洛克王国8月14日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202608/989698.shtml",
+      "publish": "2026-08-12",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
       "title": "洛克王国8月7日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202608/989370.shtml",
       "publish": "2026-08-05",
@@ -309,14 +317,6 @@ const AUTO_DATA = {
       "title": "洛克王国5月29日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202605/986346.shtml",
       "publish": "2026-05-27",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
-      "auto": true
-    },
-    {
-      "title": "洛克王国5月22日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202605/986051.shtml",
-      "publish": "2026-05-20",
       "source": "洛克王国官网（页游频道）",
       "tag": "页游官方公告",
       "auto": true
