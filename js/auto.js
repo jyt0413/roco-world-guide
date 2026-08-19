@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界斑斑家族分享 洛克王国世界斑斑家族如何",
+      "url": "https://www.9game.cn/lkwgsy/12034621.html",
+      "publish": "2026-08-19",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界斑斑家族怎么样 洛克王国世界斑斑家族介绍",
       "url": "https://www.9game.cn/lkwgsy/12032406.html",
       "publish": "2026-08-18",
