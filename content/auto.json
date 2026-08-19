@@ -1,6 +1,14 @@
 {
   "announcements": [
     {
+      "title": "洛克王国8月21日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202608/990008.shtml",
+      "publish": "2026-08-19",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
       "title": "洛克王国8月14日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202608/989698.shtml",
       "publish": "2026-08-12",
@@ -308,14 +316,6 @@
       "title": "洛克王国6月5日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202606/986690.shtml",
       "publish": "2026-06-03",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
-      "auto": true
-    },
-    {
-      "title": "洛克王国5月29日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202605/986346.shtml",
-      "publish": "2026-05-27",
       "source": "洛克王国官网（页游频道）",
       "tag": "页游官方公告",
       "auto": true
