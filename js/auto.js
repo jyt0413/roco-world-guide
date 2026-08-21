@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界斑斑家族全解析：角色特点、技能搭配与培养攻略",
+      "url": "https://www.9game.cn/lkwgsy/12037500.html",
+      "publish": "2026-08-21",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界斑斑家族分享 洛克王国世界斑斑家族如何",
       "url": "https://www.9game.cn/lkwgsy/12034621.html",
       "publish": "2026-08-19",
