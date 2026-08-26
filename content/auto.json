@@ -1,6 +1,30 @@
 {
   "announcements": [
     {
+      "title": "《洛克王国》2026洛克王国 秋季官宣",
+      "url": "http://news.17173.com/content/08252026/215044031.shtml",
+      "publish": "2026-08-25",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
+      "title": "《洛克王国》丰稔季（上）主题玩法情报公开",
+      "url": "http://news.17173.com/content/08252026/214919269.shtml",
+      "publish": "2026-08-25",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
+      "title": "《洛克王国》8月28日三丽鸥家族x洛克王国联动活动（上期）情报公开",
+      "url": "http://news.17173.com/content/08242026/200559419.shtml",
+      "publish": "2026-08-24",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》8月21日更新速递——幻境奥兹",
       "url": "http://news.17173.com/content/08202026/154338390.shtml",
       "publish": "2026-08-20",
@@ -292,30 +316,6 @@
       "title": "《洛克王国》6月12日更新速递——阿缠",
       "url": "http://news.17173.com/content/06102026/233250585.shtml",
       "publish": "2026-06-10",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国：世界》精灵技能梗味评级榜！你们怎么看？",
-      "url": "http://news.17173.com/content/06102026/151906535.shtml",
-      "publish": "2026-06-10",
-      "source": "17173 资讯",
-      "tag": "手游资讯",
-      "auto": true
-    },
-    {
-      "title": "洛克王国6月12日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202606/986937.shtml",
-      "publish": "2026-06-10",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国》2026BW参展情报公开！",
-      "url": "http://news.17173.com/content/06092026/101619230.shtml",
-      "publish": "2026-06-09",
       "source": "17173 资讯",
       "tag": "页游资讯",
       "auto": true
