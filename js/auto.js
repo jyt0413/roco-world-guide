@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "《洛克王国》8月28日更新速递",
+      "url": "http://news.17173.com/content/08262026/205313741.shtml",
+      "publish": "2026-08-26",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "洛克王国8月28日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202608/990308.shtml",
       "publish": "2026-08-26",
@@ -309,14 +317,6 @@ const AUTO_DATA = {
       "title": "《洛克王国》6月19日版本部分活动情报公开",
       "url": "http://news.17173.com/content/06162026/172609770.shtml",
       "publish": "2026-06-16",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国》2026洛克王国 16周年庆官宣（一）",
-      "url": "http://news.17173.com/content/06152026/233054667.shtml",
-      "publish": "2026-06-15",
       "source": "17173 资讯",
       "tag": "页游资讯",
       "auto": true
