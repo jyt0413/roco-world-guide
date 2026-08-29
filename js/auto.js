@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界小草虫家族图鉴与培养攻略",
+      "url": "https://www.9game.cn/lkwgsy/12052965.html",
+      "publish": "2026-08-29",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界加速器推荐：好用稳定不卡顿的加速工具对比",
       "url": "https://www.9game.cn/lkwgsy/12052466.html",
       "publish": "2026-08-29",
