@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界铅字幻梦赛季冲刺有哪些活动 洛克王国世界赛季冲刺介绍",
+      "url": "https://www.9game.cn/lkwgsy/12054617.html",
+      "publish": "2026-08-31",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界小草虫家族图鉴与培养攻略",
       "url": "https://www.9game.cn/lkwgsy/12052965.html",
       "publish": "2026-08-29",
