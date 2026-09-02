@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "洛克王国9月4日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202609/990618.shtml",
+      "publish": "2026-09-02",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》8月28日更新速递",
       "url": "http://news.17173.com/content/08262026/205313741.shtml",
       "publish": "2026-08-26",
@@ -312,17 +320,17 @@ const AUTO_DATA = {
       "source": "洛克王国官网（页游频道）",
       "tag": "页游官方公告",
       "auto": true
-    },
-    {
-      "title": "《洛克王国》6月19日版本部分活动情报公开",
-      "url": "http://news.17173.com/content/06162026/172609770.shtml",
-      "publish": "2026-06-16",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界地鼠家族怎么样 洛克王国世界地鼠家族介绍",
+      "url": "https://www.9game.cn/lkwgsy/12060123.html",
+      "publish": "2026-09-02",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界铅字幻梦赛季冲刺有哪些活动 洛克王国世界赛季冲刺介绍",
       "url": "https://www.9game.cn/lkwgsy/12054617.html",
