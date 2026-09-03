@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界S4赛季奇遇精灵有哪些 洛克王国世界S4奇遇精灵图鉴",
+      "url": "https://www.9game.cn/lkwgsy/12063156.html",
+      "publish": "2026-09-03",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界地鼠家族怎么样 洛克王国世界地鼠家族介绍",
       "url": "https://www.9game.cn/lkwgsy/12060123.html",
       "publish": "2026-09-02",
