@@ -2,6 +2,22 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "《洛克王国》增强版确定推出国际服 10月27日首次全球封测",
+      "url": "http://news.17173.com/content/09082026/120145201.shtml",
+      "publish": "2026-09-08",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
+      "title": "《洛克王国》增强版推出国际服 10月27日首次全球封测",
+      "url": "http://news.17173.com/content/09082026/110610247.shtml",
+      "publish": "2026-09-08",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》9月4日更新速递——量角桃懒",
       "url": "http://news.17173.com/content/09022026/172006110.shtml",
       "publish": "2026-09-02",
@@ -304,25 +320,17 @@ const AUTO_DATA = {
       "source": "17173 资讯",
       "tag": "手游资讯",
       "auto": true
-    },
-    {
-      "title": "洛克王国6月19日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202606/987273.shtml",
-      "publish": "2026-06-17",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
-      "auto": true
-    },
-    {
-      "title": "端午福利拉满！《洛克王国：世界》6月19日更新速报：迪斯佩尔登",
-      "url": "http://news.17173.com/content/06172026/224246240.shtml",
-      "publish": "2026-06-17",
-      "source": "17173 资讯",
-      "tag": "手游资讯",
-      "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界豆丁鱼家族怎么样 洛克王国世界豆丁鱼家族介绍",
+      "url": "https://www.9game.cn/lkwgsy/12072147.html",
+      "publish": "2026-09-08",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界地鼠家族分享 洛克王国世界地鼠家族如何",
       "url": "https://www.9game.cn/lkwgsy/12070910.html",
