@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "洛克王国9月11日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202609/990838.shtml",
+      "publish": "2026-09-09",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》增强版确定推出国际服 10月27日首次全球封测",
       "url": "http://news.17173.com/content/09082026/120145201.shtml",
       "publish": "2026-09-08",
@@ -309,14 +317,6 @@ const AUTO_DATA = {
       "title": "《洛克王国世界》S3联动藏狐，无穷小亮化身精灵，专属寻宝任务",
       "url": "http://news.17173.com/content/06212026/162502251.shtml",
       "publish": "2026-06-21",
-      "source": "17173 资讯",
-      "tag": "手游资讯",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国世界》回溯功能翻车，战斗进化无法退化，玩家集体声讨",
-      "url": "http://news.17173.com/content/06192026/141315724.shtml",
-      "publish": "2026-06-19",
       "source": "17173 资讯",
       "tag": "手游资讯",
       "auto": true
