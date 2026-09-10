@@ -1,6 +1,14 @@
 {
   "announcements": [
     {
+      "title": "《洛克王国》9月11日更新速递",
+      "url": "http://news.17173.com/content/09092026/172749590.shtml",
+      "publish": "2026-09-09",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "洛克王国9月11日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202609/990838.shtml",
       "publish": "2026-09-09",
@@ -310,14 +318,6 @@
       "publish": "2026-06-24",
       "source": "洛克王国官网（页游频道）",
       "tag": "页游官方公告",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国世界》S3联动藏狐，无穷小亮化身精灵，专属寻宝任务",
-      "url": "http://news.17173.com/content/06212026/162502251.shtml",
-      "publish": "2026-06-21",
-      "source": "17173 资讯",
-      "tag": "手游资讯",
       "auto": true
     }
   ],
