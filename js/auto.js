@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界加速器推荐：低延迟稳定加速工具对比分享",
+      "url": "https://www.9game.cn/lkwgsy/12078704.html",
+      "publish": "2026-09-11",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界S4赛季精灵图鉴大全：全精灵属性、技能与获取方式",
       "url": "https://www.9game.cn/lkwgsy/12072842.html",
       "publish": "2026-09-08",
