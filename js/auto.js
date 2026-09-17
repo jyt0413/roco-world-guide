@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "《洛克王国》9月18日更新速递——丰絮蒲公英",
+      "url": "http://news.17173.com/content/09162026/211222951.shtml",
+      "publish": "2026-09-16",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "洛克王国9月18日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202609/991162.shtml",
       "publish": "2026-09-16",
@@ -311,14 +319,6 @@ const AUTO_DATA = {
       "publish": "2026-06-29",
       "source": "17173 资讯",
       "tag": "页游资讯",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国：世界》夜枭恶魔叮首领化曝光，旺旺联动时装公布",
-      "url": "http://news.17173.com/content/06252026/161228263.shtml",
-      "publish": "2026-06-25",
-      "source": "17173 资讯",
-      "tag": "手游资讯",
       "auto": true
     }
   ],
