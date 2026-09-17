@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界可可丰收节活动什么时候开启 洛克王国世界可可丰收节介绍",
+      "url": "https://www.9game.cn/lkwgsy/12091173.html",
+      "publish": "2026-09-17",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界小灵菇家族怎么样 洛克王国世界小灵菇家族介绍",
       "url": "https://www.9game.cn/lkwgsy/12084286.html",
       "publish": "2026-09-14",
