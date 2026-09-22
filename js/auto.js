@@ -324,6 +324,22 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界可可丰收节什么时候开启？活动开启时间与玩法介绍",
+      "url": "https://www.9game.cn/lkwgsy/12100581.html",
+      "publish": "2026-09-22",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界可可丰收节活动分享 洛克王国世界可可丰收节活动有什么",
+      "url": "https://www.9game.cn/lkwgsy/12101525.html",
+      "publish": "2026-09-22",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界叮叮卯家族怎么样 洛克王国世界叮叮卯家族介绍",
       "url": "https://www.9game.cn/lkwgsy/12097445.html",
       "publish": "2026-09-20",
