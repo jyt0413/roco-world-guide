@@ -2,6 +2,22 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "洛克王国10月2日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202609/991453.shtml",
+      "publish": "2026-09-23",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
+      "title": "洛克王国9月25日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202609/991451.shtml",
+      "publish": "2026-09-23",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》9月18日更新速递——丰絮蒲公英",
       "url": "http://news.17173.com/content/09162026/211222951.shtml",
       "publish": "2026-09-16",
@@ -301,22 +317,6 @@ const AUTO_DATA = {
       "title": "《洛克王国》16周年庆部分活动情报公开",
       "url": "http://news.17173.com/content/07012026/092737436.shtml",
       "publish": "2026-07-01",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
-    },
-    {
-      "title": "洛克王国7月3日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202607/987919.shtml",
-      "publish": "2026-07-01",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国》2026洛克王国 16周年庆官宣（二）",
-      "url": "http://news.17173.com/content/06292026/164815797.shtml",
-      "publish": "2026-06-29",
       "source": "17173 资讯",
       "tag": "页游资讯",
       "auto": true
