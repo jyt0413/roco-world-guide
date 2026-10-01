@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "《洛克王国》10月9日更新速递——皇冠菠萝狮",
+      "url": "http://news.17173.com/content/09302026/210344424.shtml",
+      "publish": "2026-09-30",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "洛克王国10月9日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202609/991771.shtml",
       "publish": "2026-09-30",
@@ -311,14 +319,6 @@ const AUTO_DATA = {
       "publish": "2026-07-08",
       "source": "洛克王国官网（页游频道）",
       "tag": "页游官方公告",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国》7月10日版本部分活动情报公开",
-      "url": "http://news.17173.com/content/07062026/195342601.shtml",
-      "publish": "2026-07-06",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
       "auto": true
     }
   ],
