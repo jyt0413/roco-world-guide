@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界豆丁鱼家族分享 洛克王国世界豆丁鱼家族如何",
+      "url": "https://www.9game.cn/lkwgsy/12117972.html",
+      "publish": "2026-10-02",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界可可丰收节活动攻略：玩法奖励与参与方式一览",
       "url": "https://www.9game.cn/lkwgsy/12105840.html",
       "publish": "2026-09-24",
