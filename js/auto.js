@@ -314,11 +314,11 @@ const AUTO_DATA = {
       "auto": true
     },
     {
-      "title": "洛克王国7月10日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202607/988212.shtml",
+      "title": "《洛克王国》7月10日更新速递——周年庆典再次开启",
+      "url": "http://news.17173.com/content/07082026/195656850.shtml",
       "publish": "2026-07-08",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
       "auto": true
     }
   ],
