@@ -324,6 +324,30 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "神兽捕捉方法 洛克王国世界神兽怎么捕捉",
+      "url": "https://www.9game.cn/lkwgsy/11702640.html",
+      "publish": "2026-10-11",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "乌达捕捉在哪里 洛克王国世界乌达在哪抓",
+      "url": "https://www.9game.cn/lkwgsy/11702488.html",
+      "publish": "2026-10-11",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界主线阵容怎么推荐",
+      "url": "https://www.9game.cn/lkwgsy/11701975.html",
+      "publish": "2026-10-11",
+      "source": "9game 洛克王国手游频道",
+      "category": "pvp",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界9月30日版本更新分享 洛克王国世界9月30日版本有什么",
       "url": "https://www.9game.cn/lkwgsy/12128296.html",
       "publish": "2026-10-10",
@@ -774,30 +798,6 @@ const AUTO_DATA = {
     {
       "title": "洛克王国世界南圣兽雀羽技能相似宠物有什么 南圣兽雀羽技能相似宠物介绍",
       "url": "https://www.9game.cn/lkwgsy/11704696.html",
-      "publish": "2026-08-02",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界仪式者技能怎么搭配 仪式者技能搭配推荐",
-      "url": "https://www.9game.cn/lkwgsy/11704694.html",
-      "publish": "2026-08-02",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界宠物图鉴有什么",
-      "url": "https://www.9game.cn/lkwgsy/11703400.html",
-      "publish": "2026-08-02",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界零氪怎么玩 平民玩家不花钱玩法心得",
-      "url": "https://www.9game.cn/lkwgsy/11703252.html",
       "publish": "2026-08-02",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
