@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界瑰眼仔家族分享 洛克王国世界瑰眼仔家族如何",
+      "url": "https://www.9game.cn/lkwgsy/12134397.html",
+      "publish": "2026-10-13",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国晨兴蜜蜂技能表是什么",
       "url": "https://www.9game.cn/lkwgsy/11705252.html",
       "publish": "2026-10-11",
@@ -790,14 +798,6 @@ const AUTO_DATA = {
     {
       "title": "洛克王国世界海盔虫家族图鉴：技能、进化与实战搭配攻略",
       "url": "https://www.9game.cn/lkwgsy/11981009.html",
-      "publish": "2026-08-02",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界S3赛季奇遇精灵全览：获取方式与技能特点详解",
-      "url": "https://www.9game.cn/lkwgsy/11980892.html",
       "publish": "2026-08-02",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
