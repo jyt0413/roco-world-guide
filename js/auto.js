@@ -324,6 +324,22 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界小黑猫家族怎么样 洛克王国世界小黑猫家族介绍",
+      "url": "https://www.9game.cn/lkwgsy/12148441.html",
+      "publish": "2026-10-20",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界奔波鼠怎么样 洛克王国世界奔波鼠说明",
+      "url": "https://www.9game.cn/lkwgsy/12148517.html",
+      "publish": "2026-10-20",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界公平鸽怎么样 公平鸽技能与获取全面介绍",
       "url": "https://www.9game.cn/lkwgsy/12146708.html",
       "publish": "2026-10-19",
@@ -782,22 +798,6 @@ const AUTO_DATA = {
     {
       "title": "洛克王国世界草系徽章试炼怎么玩 洛克王国世界草系徽章试炼玩法攻略",
       "url": "https://www.9game.cn/lkwgsy/11992006.html",
-      "publish": "2026-08-02",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界极速对决怎么玩 洛克王国手游极速对决速刷攻略",
-      "url": "https://www.9game.cn/lkwgsy/11991936.html",
-      "publish": "2026-08-02",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界极速对决分享 洛克王国世界极速对决是什么",
-      "url": "https://www.9game.cn/lkwgsy/11994992.html",
       "publish": "2026-08-02",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
