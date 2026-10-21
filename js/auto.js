@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "洛克王国10月23日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202610/992292.shtml",
+      "publish": "2026-10-21",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》【联动爆料】求助，在枫雪庆典碰到九月应该说什么？在线等！",
       "url": "http://news.17173.com/content/10202026/155008398.shtml",
       "publish": "2026-10-20",
@@ -311,14 +319,6 @@ const AUTO_DATA = {
       "publish": "2026-07-14",
       "source": "17173 资讯",
       "tag": "页游资讯",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国世界》S3赛季，武斗酷猫迪莫库拉悉数首领登场",
-      "url": "http://news.17173.com/content/07142026/094456107.shtml",
-      "publish": "2026-07-14",
-      "source": "17173 资讯",
-      "tag": "手游资讯",
       "auto": true
     }
   ],
