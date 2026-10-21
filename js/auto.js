@@ -314,11 +314,11 @@ const AUTO_DATA = {
       "auto": true
     },
     {
-      "title": "《洛克王国》2026BW洛克王国页游结算画面来了！圆满收官！感恩相遇！",
-      "url": "http://news.17173.com/content/07142026/144917001.shtml",
+      "title": "《洛克王国世界》S3赛季，武斗酷猫迪莫库拉悉数首领登场",
+      "url": "http://news.17173.com/content/07142026/094456107.shtml",
       "publish": "2026-07-14",
       "source": "17173 资讯",
-      "tag": "页游资讯",
+      "tag": "手游资讯",
       "auto": true
     }
   ],
