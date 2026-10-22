@@ -314,15 +314,23 @@ const AUTO_DATA = {
       "auto": true
     },
     {
-      "title": "《洛克王国世界》S3赛季，武斗酷猫迪莫库拉悉数首领登场",
-      "url": "http://news.17173.com/content/07142026/094456107.shtml",
+      "title": "《洛克王国》2026BW洛克王国页游结算画面来了！圆满收官！感恩相遇！",
+      "url": "http://news.17173.com/content/07142026/144917001.shtml",
       "publish": "2026-07-14",
       "source": "17173 资讯",
-      "tag": "手游资讯",
+      "tag": "页游资讯",
       "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界小黑猫家族怎么样？全面介绍与特点分析",
+      "url": "https://www.9game.cn/lkwgsy/12156227.html",
+      "publish": "2026-10-22",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界奔波鼠家族分享 洛克王国世界奔波鼠家族如何",
       "url": "https://www.9game.cn/lkwgsy/12155538.html",
@@ -790,14 +798,6 @@ const AUTO_DATA = {
     {
       "title": "洛克王国世界草系徽章试炼玩法分享 洛克王国世界草系徽章试炼玩法技巧",
       "url": "https://www.9game.cn/lkwgsy/12007713.html",
-      "publish": "2026-08-05",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国账号出售平台推荐及安全交易指南",
-      "url": "https://www.9game.cn/lkwgsy/12006383.html",
       "publish": "2026-08-05",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
