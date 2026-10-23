@@ -1,6 +1,14 @@
 {
   "announcements": [
     {
+      "title": "《洛克王国》10月23日更新速递——柑柑喵",
+      "url": "http://news.17173.com/content/10212026/200550523.shtml",
+      "publish": "2026-10-21",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "洛克王国10月23日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202610/992292.shtml",
       "publish": "2026-10-21",
@@ -311,17 +319,17 @@
       "source": "洛克王国官网（页游频道）",
       "tag": "页游官方公告",
       "auto": true
-    },
-    {
-      "title": "《洛克王国》2026BW洛克王国页游结算画面来了！圆满收官！感恩相遇！",
-      "url": "http://news.17173.com/content/07142026/144917001.shtml",
-      "publish": "2026-07-14",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界奔波鼠家族怎么样？技能特点与培养攻略",
+      "url": "https://www.9game.cn/lkwgsy/12156438.html",
+      "publish": "2026-10-23",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界小黑猫家族怎么样？全面介绍与特点分析",
       "url": "https://www.9game.cn/lkwgsy/12156227.html",
@@ -789,14 +797,6 @@
     {
       "title": "洛克王国世界伊贝儿分享 洛克王国世界伊贝儿如何",
       "url": "https://www.9game.cn/lkwgsy/12007718.html",
-      "publish": "2026-08-05",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界草系徽章试炼玩法分享 洛克王国世界草系徽章试炼玩法技巧",
-      "url": "https://www.9game.cn/lkwgsy/12007713.html",
       "publish": "2026-08-05",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
