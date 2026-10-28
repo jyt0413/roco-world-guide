@@ -2,6 +2,30 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "洛克王国10月30日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202610/992566.shtml",
+      "publish": "2026-10-28",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
+      "title": "《洛克王国》2026洛克王国 枫雪庆典官宣之碎镜冰龙王篇",
+      "url": "http://news.17173.com/content/10272026/200933700.shtml",
+      "publish": "2026-10-27",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
+      "title": "《洛克王国》x非人哉联动之九月篇活动情报公开",
+      "url": "http://news.17173.com/content/10262026/193220936.shtml",
+      "publish": "2026-10-26",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》10月23日更新速递——柑柑喵",
       "url": "http://news.17173.com/content/10212026/200550523.shtml",
       "publish": "2026-10-21",
@@ -296,33 +320,17 @@ const AUTO_DATA = {
       "source": "17173 资讯",
       "tag": "页游资讯",
       "auto": true
-    },
-    {
-      "title": "《洛克王国》16周年庆开启联动企划，《非人哉》角色十月登陆庆典",
-      "url": "http://news.17173.com/content/07162026/092311360.shtml",
-      "publish": "2026-07-16",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国》7月17日更新速递",
-      "url": "http://news.17173.com/content/07152026/203551187.shtml",
-      "publish": "2026-07-15",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
-    },
-    {
-      "title": "洛克王国7月17日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202607/988504.shtml",
-      "publish": "2026-07-15",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
-      "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界S5赛季圣龙宝藏版本介绍 洛克王国世界圣龙宝藏版本一览",
+      "url": "https://www.9game.cn/lkwgsy/12165934.html",
+      "publish": "2026-10-28",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界花怨鳗怎么样 洛克王国世界花怨鳗介绍",
       "url": "https://www.9game.cn/lkwgsy/12163424.html",
@@ -790,14 +798,6 @@ const AUTO_DATA = {
     {
       "title": "洛克王国世界新战斗机制是什么​​ 洛克王国世界新战斗机制分享",
       "url": "https://www.9game.cn/lkwgsy/12011845.html",
-      "publish": "2026-08-07",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界草系徽章试炼玩法详解：通关技巧与奖励攻略",
-      "url": "https://www.9game.cn/lkwgsy/12010713.html",
       "publish": "2026-08-07",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
