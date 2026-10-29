@@ -306,23 +306,39 @@ const AUTO_DATA = {
       "auto": true
     },
     {
-      "title": "《洛克王国》16周年庆开启联动企划，《非人哉》角色十月登陆庆典",
-      "url": "http://news.17173.com/content/07162026/092311360.shtml",
+      "title": "《洛克王国》三丽鸥家族x洛克王国联动第二弹正式确认！再次携手，萌化你心！",
+      "url": "http://news.17173.com/content/07162026/114345661.shtml",
       "publish": "2026-07-16",
       "source": "17173 资讯",
       "tag": "页游资讯",
       "auto": true
     },
     {
-      "title": "《洛克王国》宫里的世界x洛克王国联动确认！小洛克竟然也有“进宫”的一天了吗？",
-      "url": "http://news.17173.com/content/07162026/201132974.shtml",
+      "title": "《洛克王国》16周年庆开启联动企划，《非人哉》角色十月登陆庆典",
+      "url": "http://news.17173.com/content/07162026/092311360.shtml",
       "publish": "2026-07-16",
       "source": "17173 资讯",
-      "tag": "手游资讯",
+      "tag": "页游资讯",
       "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界S5赛季精灵有哪些 洛克王国世界S5赛季精灵介绍",
+      "url": "https://www.9game.cn/lkwgsy/12167955.html",
+      "publish": "2026-10-29",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界赛季奇遇龙龙骰子怎么玩 洛克王国世界龙龙骰子玩法介绍",
+      "url": "https://www.9game.cn/lkwgsy/12167945.html",
+      "publish": "2026-10-29",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界S5赛季圣龙宝藏版本介绍 洛克王国世界圣龙宝藏版本一览",
       "url": "https://www.9game.cn/lkwgsy/12165934.html",
@@ -783,22 +799,6 @@ const AUTO_DATA = {
       "title": "洛克王国世界可立鸡家族成员分享 洛克王国世界可立鸡家族有谁",
       "url": "https://www.9game.cn/lkwgsy/12016008.html",
       "publish": "2026-08-10",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界可立鸡家族介绍 洛克王国世界可立鸡家族成员一览",
-      "url": "https://www.9game.cn/lkwgsy/12012312.html",
-      "publish": "2026-08-07",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界新战斗机制是什么​​ 洛克王国世界新战斗机制分享",
-      "url": "https://www.9game.cn/lkwgsy/12011845.html",
-      "publish": "2026-08-07",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
       "auto": true
