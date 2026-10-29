@@ -306,23 +306,47 @@ const AUTO_DATA = {
       "auto": true
     },
     {
+      "title": "《洛克王国》16周年庆开启联动企划，《非人哉》角色十月登陆庆典",
+      "url": "http://news.17173.com/content/07162026/092311360.shtml",
+      "publish": "2026-07-16",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》宫里的世界x洛克王国联动确认！小洛克竟然也有“进宫”的一天了吗？",
       "url": "http://news.17173.com/content/07162026/201132974.shtml",
       "publish": "2026-07-16",
       "source": "17173 资讯",
       "tag": "手游资讯",
       "auto": true
-    },
-    {
-      "title": "《洛克王国》三丽鸥家族x洛克王国联动第二弹正式确认！再次携手，萌化你心！",
-      "url": "http://news.17173.com/content/07162026/114345661.shtml",
-      "publish": "2026-07-16",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界芽眼魔怎么样？芽眼魔技能属性与实战解析",
+      "url": "https://www.9game.cn/lkwgsy/12168948.html",
+      "publish": "2026-10-29",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界花怨鳗分享 洛克王国世界花怨鳗如何",
+      "url": "https://www.9game.cn/lkwgsy/12169138.html",
+      "publish": "2026-10-29",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界芽眼魔分享 洛克王国世界芽眼魔如何",
+      "url": "https://www.9game.cn/lkwgsy/12169141.html",
+      "publish": "2026-10-29",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界传说精灵冥古龙怎么样 洛克王国世界传说精灵冥古龙介绍",
       "url": "https://www.9game.cn/lkwgsy/12168838.html",
@@ -775,30 +799,6 @@ const AUTO_DATA = {
       "title": "洛克王国世界斑斑家族分享 洛克王国世界斑斑家族如何",
       "url": "https://www.9game.cn/lkwgsy/12034621.html",
       "publish": "2026-08-19",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界斑斑家族怎么样 洛克王国世界斑斑家族介绍",
-      "url": "https://www.9game.cn/lkwgsy/12032406.html",
-      "publish": "2026-08-18",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界全新战斗机制详解：策略升级与玩法革新",
-      "url": "https://www.9game.cn/lkwgsy/12016359.html",
-      "publish": "2026-08-11",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界伊贝儿图鉴：技能属性、获取方式与实战强度分析",
-      "url": "https://www.9game.cn/lkwgsy/12016353.html",
-      "publish": "2026-08-11",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
       "auto": true
