@@ -306,19 +306,19 @@ const AUTO_DATA = {
       "auto": true
     },
     {
+      "title": "《洛克王国》16周年庆开启联动企划，《非人哉》角色十月登陆庆典",
+      "url": "http://news.17173.com/content/07162026/092311360.shtml",
+      "publish": "2026-07-16",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》宫里的世界x洛克王国联动确认！小洛克竟然也有“进宫”的一天了吗？",
       "url": "http://news.17173.com/content/07162026/201132974.shtml",
       "publish": "2026-07-16",
       "source": "17173 资讯",
       "tag": "手游资讯",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国》三丽鸥家族x洛克王国联动第二弹正式确认！再次携手，萌化你心！",
-      "url": "http://news.17173.com/content/07162026/114345661.shtml",
-      "publish": "2026-07-16",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
       "auto": true
     }
   ],
