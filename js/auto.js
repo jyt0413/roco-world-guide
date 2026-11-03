@@ -324,6 +324,38 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界觅觅蝠家族怎么样 洛克王国世界觅觅蝠家族介绍",
+      "url": "https://www.9game.cn/lkwgsy/12180106.html",
+      "publish": "2026-11-03",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界稻草人怎么样 洛克王国世界稻草人介绍",
+      "url": "https://www.9game.cn/lkwgsy/12180080.html",
+      "publish": "2026-11-03",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界赛季奇遇龙龙骰子玩法分享 赛季奇遇龙龙骰子玩法技巧",
+      "url": "https://www.9game.cn/lkwgsy/12180498.html",
+      "publish": "2026-11-03",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界S5圣龙宝藏赛季奇遇精灵有哪些 奇遇精灵获取方式与图鉴介绍",
+      "url": "https://www.9game.cn/lkwgsy/12178295.html",
+      "publish": "2026-11-03",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界赛季奇遇龙龙骰子怎么玩 龙龙骰子玩法攻略与奖励详解",
       "url": "https://www.9game.cn/lkwgsy/12177729.html",
       "publish": "2026-11-02",
@@ -767,38 +799,6 @@ const AUTO_DATA = {
       "title": "洛克王国世界地鼠家族怎么样 洛克王国世界地鼠家族介绍",
       "url": "https://www.9game.cn/lkwgsy/12060123.html",
       "publish": "2026-09-02",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界铅字幻梦赛季冲刺有哪些活动 洛克王国世界赛季冲刺介绍",
-      "url": "https://www.9game.cn/lkwgsy/12054617.html",
-      "publish": "2026-08-31",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界小草虫家族图鉴与培养攻略",
-      "url": "https://www.9game.cn/lkwgsy/12052965.html",
-      "publish": "2026-08-29",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界加速器推荐：好用稳定不卡顿的加速工具对比",
-      "url": "https://www.9game.cn/lkwgsy/12052466.html",
-      "publish": "2026-08-29",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界小草虫家族全解析：角色介绍、技能特点与培养攻略",
-      "url": "https://www.9game.cn/lkwgsy/12051851.html",
-      "publish": "2026-08-28",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
       "auto": true
