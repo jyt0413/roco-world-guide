@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "洛克王国11月6日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202611/992864.shtml",
+      "publish": "2026-11-04",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》【联动爆料】有这样帅气的敖烈进入枫雪庆典，这个秋冬不烧心！",
       "url": "http://news.17173.com/content/11022026/191634189.shtml",
       "publish": "2026-11-02",
@@ -312,17 +320,17 @@ const AUTO_DATA = {
       "source": "17173 资讯",
       "tag": "页游资讯",
       "auto": true
-    },
-    {
-      "title": "洛克王国7月24日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202607/988792.shtml",
-      "publish": "2026-07-22",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
-      "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界S5赛季精灵分享 洛克王国世界S5赛季精灵有什么",
+      "url": "https://www.9game.cn/lkwgsy/12182574.html",
+      "publish": "2026-11-04",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界觅觅蝠家族怎么样 洛克王国世界觅觅蝠家族介绍",
       "url": "https://www.9game.cn/lkwgsy/12180106.html",
@@ -791,14 +799,6 @@ const AUTO_DATA = {
       "title": "洛克王国世界S4赛季奇遇精灵有哪些 洛克王国世界S4奇遇精灵图鉴",
       "url": "https://www.9game.cn/lkwgsy/12063156.html",
       "publish": "2026-09-03",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界地鼠家族怎么样 洛克王国世界地鼠家族介绍",
-      "url": "https://www.9game.cn/lkwgsy/12060123.html",
-      "publish": "2026-09-02",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
       "auto": true
