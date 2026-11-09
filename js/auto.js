@@ -324,6 +324,14 @@ const AUTO_DATA = {
   ],
   "strategy": [
     {
+      "title": "洛克王国世界S5赛季奇遇精灵分享 洛克王国世界S5赛季奇遇精灵有什么",
+      "url": "https://www.9game.cn/lkwgsy/12191031.html",
+      "publish": "2026-11-09",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
       "title": "洛克王国世界S5赛季圣龙宝藏分享 洛克王国世界S5赛季圣龙宝藏有什么",
       "url": "https://www.9game.cn/lkwgsy/12186586.html",
       "publish": "2026-11-06",
@@ -791,14 +799,6 @@ const AUTO_DATA = {
       "title": "洛克王国世界9月3日版本更新有哪些内容 洛克王国世界版本更新介绍",
       "url": "https://www.9game.cn/lkwgsy/12070522.html",
       "publish": "2026-09-07",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界闪退卡顿问题全面解决指南",
-      "url": "https://www.9game.cn/lkwgsy/12068736.html",
-      "publish": "2026-09-06",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
       "auto": true
