@@ -314,15 +314,31 @@ const AUTO_DATA = {
       "auto": true
     },
     {
-      "title": "洛克王国7月31日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202607/989045.shtml",
+      "title": "《洛克王国：世界》草系徽章试炼来袭，肉鸽闯关玩法上线",
+      "url": "http://news.17173.com/content/07292026/160859516.shtml",
       "publish": "2026-07-29",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
+      "source": "17173 资讯",
+      "tag": "手游资讯",
       "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界S5赛季开启时间及赛季详情",
+      "url": "https://www.9game.cn/lkwgsy/12198918.html",
+      "publish": "2026-11-12",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界S5赛季奇遇精灵全名单及获取方式详解",
+      "url": "https://www.9game.cn/lkwgsy/12198505.html",
+      "publish": "2026-11-12",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界对决羁绊系统 洛克王国世界对决羁绊玩法",
       "url": "https://www.9game.cn/lkwgsy/12193231.html",
@@ -782,22 +798,6 @@ const AUTO_DATA = {
     {
       "title": "洛克王国世界S4赛季精灵图鉴大全：全精灵属性、技能与获取方式",
       "url": "https://www.9game.cn/lkwgsy/12072842.html",
-      "publish": "2026-09-08",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界加速器推荐：稳定流畅的加速工具选择指南",
-      "url": "https://www.9game.cn/lkwgsy/12072843.html",
-      "publish": "2026-09-08",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界豆丁鱼家族怎么样 洛克王国世界豆丁鱼家族介绍",
-      "url": "https://www.9game.cn/lkwgsy/12072147.html",
       "publish": "2026-09-08",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
