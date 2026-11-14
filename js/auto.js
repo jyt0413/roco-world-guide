@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "《洛克王国》11月13日更新速递——敖烈",
+      "url": "http://news.17173.com/content/11122026/195720936.shtml",
+      "publish": "2026-11-12",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》x非人哉联动之敖烈篇活动情报公开",
       "url": "http://news.17173.com/content/11112026/172602580.shtml",
       "publish": "2026-11-11",
@@ -311,14 +319,6 @@ const AUTO_DATA = {
       "publish": "2026-08-05",
       "source": "洛克王国官网（页游频道）",
       "tag": "页游官方公告",
-      "auto": true
-    },
-    {
-      "title": "华为鸿蒙 HarmonyOS 7 实装游戏秒启秒开特性，《原神》《洛克王国》等可极速启动",
-      "url": "http://news.17173.com/content/08022026/120244121.shtml",
-      "publish": "2026-08-02",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
       "auto": true
     }
   ],
