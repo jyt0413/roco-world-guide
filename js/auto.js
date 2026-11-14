@@ -314,11 +314,11 @@ const AUTO_DATA = {
       "auto": true
     },
     {
-      "title": "《洛克王国：世界》草系徽章试炼来袭，肉鸽闯关玩法上线",
-      "url": "http://news.17173.com/content/07292026/160859516.shtml",
+      "title": "洛克王国7月31日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202607/989045.shtml",
       "publish": "2026-07-29",
-      "source": "17173 资讯",
-      "tag": "手游资讯",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
       "auto": true
     }
   ],
