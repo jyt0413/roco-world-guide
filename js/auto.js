@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "《洛克王国》11月20日更新速递——飞翔酷酷",
+      "url": "http://news.17173.com/content/11182026/203739664.shtml",
+      "publish": "2026-11-18",
+      "source": "17173 资讯",
+      "tag": "页游资讯",
+      "auto": true
+    },
+    {
       "title": "洛克王国11月20日更新速递",
       "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202611/993488.shtml",
       "publish": "2026-11-18",
@@ -312,17 +320,25 @@ const AUTO_DATA = {
       "source": "洛克王国官网（页游频道）",
       "tag": "页游官方公告",
       "auto": true
-    },
-    {
-      "title": "洛克王国8月14日更新速递",
-      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202608/989698.shtml",
-      "publish": "2026-08-12",
-      "source": "洛克王国官网（页游频道）",
-      "tag": "页游官方公告",
-      "auto": true
     }
   ],
   "strategy": [
+    {
+      "title": "洛克王国世界精灵阿布怎么样？阿布属性技能与实战强度解析",
+      "url": "https://www.9game.cn/lkwgsy/12216832.html",
+      "publish": "2026-11-20",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
+    {
+      "title": "洛克王国世界对决羁绊怎么玩？玩法详解与羁绊搭配攻略",
+      "url": "https://www.9game.cn/lkwgsy/12216835.html",
+      "publish": "2026-11-20",
+      "source": "9game 洛克王国手游频道",
+      "category": "pve",
+      "auto": true
+    },
     {
       "title": "洛克王国世界对决羁绊玩法技巧 洛克王国世界对决羁绊玩法分享",
       "url": "https://www.9game.cn/lkwgsy/12213808.html",
@@ -783,22 +799,6 @@ const AUTO_DATA = {
       "title": "洛克王国世界可可丰收节什么时候开启？活动开启时间与玩法介绍",
       "url": "https://www.9game.cn/lkwgsy/12100581.html",
       "publish": "2026-09-22",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界可可丰收节活动分享 洛克王国世界可可丰收节活动有什么",
-      "url": "https://www.9game.cn/lkwgsy/12101525.html",
-      "publish": "2026-09-22",
-      "source": "9game 洛克王国手游频道",
-      "category": "pve",
-      "auto": true
-    },
-    {
-      "title": "洛克王国世界叮叮卯家族怎么样 洛克王国世界叮叮卯家族介绍",
-      "url": "https://www.9game.cn/lkwgsy/12097445.html",
-      "publish": "2026-09-20",
       "source": "9game 洛克王国手游频道",
       "category": "pve",
       "auto": true
