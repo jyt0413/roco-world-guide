@@ -2,6 +2,14 @@
 const AUTO_DATA = {
   "announcements": [
     {
+      "title": "洛克王国11月27日更新速递",
+      "url": "https://roco.qq.com/webplat/info/news_version3/397/11016/11018/m8584/202611/993742.shtml",
+      "publish": "2026-11-25",
+      "source": "洛克王国官网（页游频道）",
+      "tag": "页游官方公告",
+      "auto": true
+    },
+    {
       "title": "《洛克王国》x非人哉联动之小玉篇活动情报公开",
       "url": "http://news.17173.com/content/11232026/214447187.shtml",
       "publish": "2026-11-23",
@@ -309,14 +317,6 @@ const AUTO_DATA = {
       "title": "《洛克王国》8月28日三丽鸥家族x洛克王国联动活动（上期）情报公开",
       "url": "http://news.17173.com/content/08242026/200559419.shtml",
       "publish": "2026-08-24",
-      "source": "17173 资讯",
-      "tag": "页游资讯",
-      "auto": true
-    },
-    {
-      "title": "《洛克王国》8月21日更新速递——幻境奥兹",
-      "url": "http://news.17173.com/content/08202026/154338390.shtml",
-      "publish": "2026-08-20",
       "source": "17173 资讯",
       "tag": "页游资讯",
       "auto": true
